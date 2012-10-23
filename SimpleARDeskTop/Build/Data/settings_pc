@@ -1,0 +1,20 @@
+#the number of cameras (1 or 2)
+0
+
+#the number of buttons
+0
+
+#the number of cursors
+0
+
+#the number of projections
+0
+
+#head tracking mode (0: disable / 1:ht mode)
+0
+
+#head mount display smoothing (0: disable / >=1:able)
+0
+
+#calibration width
+20.0
