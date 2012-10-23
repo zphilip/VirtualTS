@@ -1,0 +1,85 @@
+#the number of cameras (1 or 2)
+2
+
+#the number of buttons
+1
+
+#the number of cursors
+3
+
+#the number of projections
+1
+
+#head tracking mode (0: disable / 1:ht mode)
+1
+
+#head mount display smoothing (0: disable / >=1:able)
+0
+
+
+#marker button
+HandA.CClickButton
+button
+Data/patt.invader
+25.0
+12.5 12.5
+12.5 -12.5
+-12.5 -12.5
+-12.5 12.5
+0.0 0.0
+
+#cursor 1
+HandA.CMainCursor
+mainCursor
+Data/patt.char_d
+25.0
+25.0 35.0
+25.0 -65.0
+-25.0 -65.0
+-25.0 35.0
+25.0 -35.0
+
+#cursor 2
+HandB.CMainCursor
+mainCursor
+Data/patt.char_m
+25.0
+20.0 20.0
+20.0 -20.0
+-20.0 -20.0
+-20.0 20.0
+20.0 20.0
+
+#cursor 3
+HandB.CSubCursor
+mainCursor
+Data/patt.moai
+25.0
+20.0 20.0
+20.0 -20.0
+-20.0 -20.0
+-20.0 20.0
+-20.0 20.0
+
+#projection 1
+CDesktop
+desktop
+Data/patt.char_k
+25.0
+25.0 35.0
+25.0 -65.0
+-25.0 -65.0
+-25.0 35.0
+0.0 0.0
+
+#head tracking marker
+CHeadTrackingMarker
+HTMarker
+Data/patt.ht
+100.0
+75.0 75.0
+75.0 -75.0
+-75.0 -75.0
+-75.0 75.0
+0.0 0.0
+
